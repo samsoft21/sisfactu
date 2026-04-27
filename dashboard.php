@@ -23,7 +23,9 @@ $usuarios = 1245;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard de Bienvenida</title>
-    <style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -116,6 +118,26 @@ $usuarios = 1245;
         <button class="btn">Empezar</button>
     </div>
 
+<div class="menu-icons mt-2">
+        <a href="#" class="btn-icon bg1" title="Inicio">
+            <i class="bi bi-house-fill"></i>
+        </a>
+</div>
+
+
+
+    <div class="row">
+       <table class="table table-hover table-bordered table-striped table-sm align-middle shadow-sm rounded">
+    <thead class="table-dark text-center">
+                <th>Nro</th>
+                <th>Usuario</th>
+                <th>Estado</th>
+            </thead>
+            <tbody id="tablausuario">
+
+            </tbody>
+        </table>
+    </div>
 
     
     <div class="grid">
@@ -159,4 +181,7 @@ $usuarios = 1245;
 </div>
 
 </body>
+<script src="./js/jquery.js"></script>
+
+<script src='./js/app.js'></script>
 </html>

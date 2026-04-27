@@ -1,5 +1,6 @@
 (function(){
 
+
     $(".btn_acceso").click(function(e){
         e.preventDefault()
        let nomb =$("#nickname").val()
@@ -53,6 +54,9 @@ alert(resp.mensaje)
 
         })
 })
+
+
+
 
 
 })();
